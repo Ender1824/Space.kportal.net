@@ -2,7 +2,7 @@
 import { html, icon, mount } from "../lib.js";
 
 const FAQ = [
-  ["Does Universe Daily collect my data?", "No. Universe Daily does not collect, store or sell personal information. The app and this website only connect to the internet to fetch space and science content. Settings on the web are saved in your own browser, never on our servers. See the Privacy Policy for details."],
+  ["Does Universe Daily collect my data?", "No. Universe Daily does not collect, store or sell personal information. The app and this website connect to the internet only to fetch space and science content. The app also works out your rough area (about the nearest city) from your internet connection for the night sky features, without storing it. Settings on the web are saved in your own browser, never on our servers. See the Privacy Policy for details."],
   ["Today's picture isn't showing. Why?", "NASA publishes each Astronomy Picture of the Day shortly after midnight US Eastern time, and occasionally later. Until then you'll see yesterday's picture or a note to try again. Some days are videos rather than images."],
   ["Why do launches or astronauts sometimes look a few minutes out of date?", "Launch and astronaut data come from The Space Devs' Launch Library, which limits how often each visitor can ask for updates. Universe Daily keeps a recent copy so pages stay fast, and refreshes it every 15 minutes."],
   ["How accurate is the ISS Tracker?", "The ISS position comes from wheretheiss.at and updates every few seconds. Tiangong's position is computed from its latest published orbit (CelesTrak), accurate to within a few kilometers."],
